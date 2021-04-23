@@ -1,7 +1,6 @@
 fn main() {
-    let a_number = 10;
-    let b_boolean = true;
-
+    let mut a_number = 10;
     println!("the number is {}.", a_number);
-    println!("the boolean is {}.", b_boolean);
+    a_number = 15;
+    println!("the number is {}.", a_number);
 }
