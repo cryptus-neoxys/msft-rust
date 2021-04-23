@@ -1,6 +1,6 @@
 fn main() {
-    let mut a_number = 10;
-    println!("the number is {}.", a_number);
-    a_number = 15;
-    println!("the number is {}.", a_number);
+    let number = 10;
+    let number = number + 5;
+    let number = number * 2;
+    println!("The number is {}.", number);    
 }
